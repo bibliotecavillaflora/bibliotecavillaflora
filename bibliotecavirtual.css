@@ -23,6 +23,75 @@ body{
     margin-bottom: 60px;
 
 }
+
+/*menu*/
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu > body{
+    background: #e4e4e4;
+}
+.menu{
+    width: 100%;
+}
+.menu nav{
+    width: 50%;
+    max-width: 1050px;
+    background: #2D3447;
+    margin: 30px auto;
+}
+.menu nav ul{
+    list-style: none;
+    position: relative;
+}
+.menu nav > ul > li{
+    display: inline-block;
+}
+.menu nav > ul > li > a{
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.menu nav > ul > li > a span1{
+    font-size: 20px;
+    position: absolute;
+    bottom: -9px;
+    display: none;
+}
+.menu nav > ul > li:hover span1{
+    display: block;
+}
+.menu nav ul li .submenu{
+    background: #ccc;
+    padding: 20px;
+    position: absolute;
+    display: none;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+.menu nav ul li:hover .submenu{
+    display: flex;
+}
+.menu nav ul li .submenu .submenu-items{
+    margin: 0 20px;
+}
+.menu nav ul li .submenu .submenu-items p{
+    font-weight: 600;
+    width: 110px;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #565656;
+    margin-bottom: 10px;
+}
+.menu nav ul li .submenu .submenu-items a{
+    color: #757575;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
 /*header*/
 
 header{
@@ -30,9 +99,9 @@ header{
     height: 600px;
     background: #FF0099;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(323, 19%, 24%, 0.658), hsla(335, 96%, 50%, 0.637)), url(../proyect\ biblio/minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
+    background: -webkit-linear-gradient(to right, hsla(323, 19%, 24%, 0.658), hsla(335, 96%, 50%, 0.637)), url(minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(322, 21%, 28%, 0.596), hsla(335, 96%, 50%, 0.575)), url(../proyect\ biblio/minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
+    background: linear-gradient(to right, hsla(322, 21%, 28%, 0.596), hsla(335, 96%, 50%, 0.575)), url(biblio/minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -40,7 +109,7 @@ header{
  
 }
 nav{
-    text-align: right;
+    text-align: center;
     padding: 30px 50px 0 0;
 }
 nav > a{
@@ -241,7 +310,7 @@ footer{
     color: #9e9797;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:800px){
     header{
         background-position: center;
     }
@@ -254,7 +323,7 @@ footer{
         width: 90%;
     }
     .imagen-about-us{
-        width: 90%;
+        width: 80%;
     }
 
     /*galeria*/
