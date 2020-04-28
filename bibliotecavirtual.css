@@ -99,9 +99,9 @@ header{
     height: 600px;
     background: #FF0099;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(323, 19%, 24%, 0.658), hsla(335, 96%, 50%, 0.637)), url(minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
+    background: -webkit-linear-gradient(to right, hsla(323, 19%, 24%, 0.658), hsla(335, 96%, 50%, 0.637)), url(../minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(322, 21%, 28%, 0.596), hsla(335, 96%, 50%, 0.575)), url(biblio/minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
+    background: linear-gradient(to right, hsla(322, 21%, 28%, 0.596), hsla(335, 96%, 50%, 0.575)), url(../minibiblioteca/persona\ leyendo\(lomaspopular\).jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
